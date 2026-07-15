@@ -41,5 +41,30 @@ class JobSeeder extends Seeder
             'title' => 'UI/UX Designer',
             'salary' => '$50000',
         ]);
+
+        Job::create([
+            'title' => 'QA Engineer',
+            'salary' => '$62000',
+        ]);
+
+        Job::create([
+            'title' => 'Product Manager',
+            'salary' => '$90000',
+        ]);
+
+        Job::create([
+            'title' => 'Marketing Specialist',
+            'salary' => '$52000',
+        ]);
+
+        Job::create([
+            'title' => 'Data Analyst',
+            'salary' => '$68000',
+        ]);
+
+        Job::create([
+            'title' => 'Cloud Architect',
+            'salary' => '$110000',
+        ]);
     }
 }
